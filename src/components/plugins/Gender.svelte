@@ -14,6 +14,7 @@
 
 <div>
     <span style="font-size: 1.5rem; display: block; padding: 10px 0px 10px 0px">성별</span>
+    <div style="opacity: 0.5;">성 소수자이신 경우 더보기를 눌러 젠더퀴어 성별을 모두 확인할 수 있습니다.</div>
     <div class="genderItemWrapper">
         {#each genderType as Name}
             <button class="genderItem" class:selected={$pluginData.genderValue == Name} on:click={()=>{

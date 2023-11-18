@@ -7,6 +7,11 @@
 </div>
 
 <style>
+
+@font-face {
+        font-family: 'Noto Color Emoji';
+        src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+    }
     .contentWrapper {
         max-width: 1080px;
         margin: auto;

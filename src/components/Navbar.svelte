@@ -1,6 +1,6 @@
 <script>
     import Fa from 'svelte-fa'
-    import { faPen } from "@fortawesome/free-solid-svg-icons";
+    import { faInfo } from "@fortawesome/free-solid-svg-icons";
 
 </script>
 <style>
@@ -32,9 +32,9 @@
 
 <nav>
     <div class="navbarWrapper">
-        <div class="brand"><a href="/">Pronouns</a></div>
+        <div class="brand"><a href="/">page.cply.io</a></div>
         <div class="NavMenu">
-            <div class="navItem"><a href="/write"><Fa icon={faPen}/></a></div>
+            <div class="navItem"><a href="/info"><Fa icon={faInfo}/></a></div>
         </div>
     </div>
 </nav>
