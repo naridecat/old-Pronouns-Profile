@@ -14,7 +14,7 @@ export interface SNS {
 
 interface PluginData {
     birthdayValue: Date;
-    genderValue: string;
+    genderValue: string[];
     Pronouns: Pronoun[];
     SNS: SNS[];
 }
@@ -22,7 +22,7 @@ interface PluginData {
 // Initialize the store with an empty array for SNS
 export const pluginData = writable<PluginData>({
     birthdayValue: new Date(),
-    genderValue: "",
+    genderValue: [] as string[], // 초기값은 빈 배열
     Pronouns: [],
     SNS: [] // Initially empty, will hold SNS objects
 });
